@@ -4,7 +4,7 @@ MS CS @ USC (May 2027). I work on **LLM inference and AI infrastructure**:
 serving systems, KV-cache movement, and the performance work that makes them fast.
 Before grad school, 7 years of software engineering at Samsung and Continental.
 
-**Open source: [vLLM](https://github.com/vllm-project/vllm)**
+**Open source contributions: [vLLM](https://github.com/vllm-project/vllm)**
 
 - [#57648](https://github.com/vllm-project/vllm/pull/57648) *(merged)*. Removed the `ray[default]` dependency from data-parallel placement-group setup, which broke elastic expert-parallel scale-up on Ray clusters without the dashboard.
 - [#54483](https://github.com/vllm-project/vllm/pull/54483) *(merged)*. Coalesced NIXL host-buffer KV-cache copies across cache groups. Per-request copy latency 4.95ms to 1.27ms, device copy ops 96 to 16 at 6 KV-cache groups.
